@@ -20,7 +20,7 @@
   </div>
 </div>
 
--->
+
 
 <head>
 <%= csrf_meta_tags %>
@@ -51,4 +51,33 @@
   </div>
 </div>
 
+-->
 
+
+<head>
+<%= csrf_meta_tags %>
+</head>
+
+<h1>Sign up</h1>
+
+<div class="row">
+  <div class="col-md-6 col-md-offset-3">
+
+    <%= form_for(@user) do |f| %>
+
+      <%= f.label :username%>
+      <%= f.text_field :username, placeholder: "Your username here" %>
+      <br>
+      <%= f.label :email %>
+      <%= f.email_field :email, placeholder: "example@bla.com"%>
+      <br>
+      <%= f.label :password %>
+      <%= f.password_field :password, placeholder: "Insert your password"%>
+      <br>
+      <%= f.label :password_confirmation, "Confirmation" %>
+      <%= f.password_field :password_confirmation, placeholder: "Confirm your password" %>
+      <br>
+      <%= f.submit "Create User" %>
+    <% end %>
+  </div>
+</div>
