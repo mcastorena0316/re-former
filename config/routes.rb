@@ -1,4 +1,4 @@
 Rails.application.routes.draw do
-  resources :users
- 
+  get '/new',to: 'users#new'
+  resources :users, :only => [:new, :create]
 end
