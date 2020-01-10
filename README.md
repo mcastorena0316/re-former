@@ -1,24 +1,38 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# Re-Former
 
-Things you may want to cover:
+## Table of Contents
 
-* Ruby version
+* [About the Project](#about-the-project)
+  * [Built With](#built-with)
+* [Contact](#contact)
+* [Acknowledgements](#acknowledgements)
 
-* System dependencies
+<!-- ABOUT THE PROJECT -->
+## About The Project
 
-* Configuration
+In this project we create and app and build some forms for it using: HTML, and the helper methods for the forms that Rails provides: form_tag and form_for.
 
-* Database creation
 
-* Database initialization
+Link for project specifications: [Odin-Project](https://www.theodinproject.com/courses/ruby-on-rails/lessons/forms)
 
-* How to run the test suite
+### Built With
 
-* Services (job queues, cache servers, search engines, etc.)
+*   Ruby on Rails
+*   Rubocop
 
-* Deployment instructions
+<!-- CONTACT -->
+## Contact
 
-* ...
+Melissa Castorena - mcastorena0316@gmail.com
+
+Guadalupe Rangel- kanemekanik@gmail.com
+
+Project Link: [Re-former](https://github.com/mcastorena0316/re-former)
+
+<!-- ACKNOWLEDGEMENTS -->
+## Acknowledgements
+
+* [Microverse](https://www.microverse.org/)
+
